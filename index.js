@@ -13,20 +13,49 @@
 'use strict';
 
 function id() {
-  // e.g. return "UP654321";
+  return "UP2125949";
 }
 
 function fn() {
-  return 'Replace This With Your First Name';
+  return 'Johan';
 }
 
 function sn() {
-  return 'Replace This With Your Surname';
+  return 'Dias';
 }
 
-function example() {
-  // replace this example with
-  // your first function then
-  // add more below as necessary.
+function add(a, b) {
+  let result = a + b
+  return result;
+}
 
+function subtract(a, b) {
+  let result = a - b
+  return result;
+}
+
+function checkObject(obj) {
+  if (obj && typeof obj === 'object') {
+    obj.checked = true;
+  } else {
+    obj.checked = flase;
+
+  //const object = {};
+  //object.name = "obj";
+
+  //if (object.name = "obj") {
+    //object.checked = true;
+  //}
+  //else {
+    //object.checked = false;
+  //}
+}
+}
+
+function checkObjectInside(obj) {
+  if (obj.data && typeof obj === notnull){
+    obj.data.checked = true;
+  } else {
+    obj.data.checked = false;
+  }
 }
